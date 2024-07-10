@@ -70,7 +70,7 @@ export default function OpenRPCDocIndex(props: any) {
               <MarkdownDescription uiSchema={{}} source={props.propsFile.openrpcDocument.info?.description || defaultDescription} />
               <h2>Methods</h2>
               <ul>
-                {props.propFile.openrpcDocument.methods.map((method: any) => (
+                {props.propsFile.openrpcDocument.methods.map((method: any) => (
                   <li key={method.name}>
                     <a
                       href={`https://docs.nil.foundation/nil/references/${method.name.toLowerCase()}`}
