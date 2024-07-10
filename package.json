@@ -1,10 +1,10 @@
 {
-  "name": "@metamask/docusaurus-openrpc",
-  "version": "0.4.1",
+  "name": "@nilfoundation/openrpc-docusaurus",
+  "version": "0.4.2",
   "description": "A Docusaurus plugin for generating interactive documentation from your OpenRPC document",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/docusaurus-openrpc"
+    "url": "https://github.com/khannanov-nil/nil-docusaurus-openrpc"
   },
   "license": "Apache-2.0",
   "main": "dist/index.js",
@@ -40,7 +40,7 @@
     "@docusaurus/theme-common": "^3.0.0",
     "@docusaurus/theme-search-algolia": "^3.0.0",
     "@docusaurus/types": "^3.0.0",
-    "@metamask/open-rpc-docs-react": "^0.2.0",
+    "@nilfoundation/nil-open-rpc-docs-react": "0.2.1",
     "@open-rpc/schema-utils-js": "^1.16.1",
     "node-polyfill-webpack-plugin": "^2.0.1",
     "process": "^0.11.10"

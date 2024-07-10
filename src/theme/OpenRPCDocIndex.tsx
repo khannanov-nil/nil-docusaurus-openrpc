@@ -1,7 +1,7 @@
 import React from 'react';
 const DocSidebar = require('@theme/DocSidebar').default;
 import { Sidebar } from '@docusaurus/plugin-content-docs/src/sidebars/types';
-import MarkdownDescription from '@metamask/open-rpc-docs-react/dist/MarkdownDescription/MarkdownDescription';
+import MarkdownDescription from '@nilfoundation/nil-open-rpc-docs-react/dist/MarkdownDescription/MarkdownDescription';
 import Layout from '@theme/Layout';
 import {
   MethodObject,
