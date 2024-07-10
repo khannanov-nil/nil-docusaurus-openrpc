@@ -66,8 +66,22 @@ export default function OpenRPCDocIndex(props: any) {
         <main className="docMainContainer" style={{ width: '100%' }}>
           <div className="container padding-top--md padding-bottom--lg">
             <article>
-              <h1>{props.propsFile.openrpcDocument.info.title || 'JSON-RPC'}</h1>
+              <h1>=nil; JSON-RPC API</h1>
               <MarkdownDescription uiSchema={{}} source={props.propsFile.openrpcDocument.info?.description || defaultDescription} />
+              <h2>Methods</h2>
+              <ul>
+                {props.propFile.openrpcDocument.methods.map((method: any) => (
+                  <li key={method.name}>
+                    <a
+                      href={`https://docs.nil.foundation/nil/references/${method.name.toLowerCase()}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {method.name}
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </article>
           </div>
         </main>
