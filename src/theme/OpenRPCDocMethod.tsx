@@ -5,7 +5,7 @@ import {
 } from "@docusaurus/plugin-content-docs/src/sidebars/types";
 import Layout from '@theme/Layout';
 import {ExamplePairingObject, MethodObject, ContentDescriptorObject} from '@open-rpc/meta-schema';
-import { InteractiveMethod, Method} from '@nilfoundation/nil-open-rpc-docs-react';
+import { InteractiveMethod, Method} from '@khannanov-nil/nil-open-rpc-docs-react';
 import { join } from 'path';
 import "./OpenRPCDocMethod.css";
 const CodeBlock = require('@theme/CodeBlock').default;
