@@ -1,6 +1,6 @@
 {
   "name": "@khannanov-nil/openrpc-docusaurus",
-  "version": "0.4.4",
+  "version": "0.5.2",
   "description": "A Docusaurus plugin for generating interactive documentation from your OpenRPC document",
   "repository": {
     "type": "git",
@@ -40,7 +40,7 @@
     "@docusaurus/theme-common": "^3.0.0",
     "@docusaurus/theme-search-algolia": "^3.0.0",
     "@docusaurus/types": "^3.0.0",
-    "@khannanov-nil/nil-open-rpc-docs-react": "0.2.2",
+    "@khannanov-nil/nil-open-rpc-docs-react": "0.3.0",
     "@open-rpc/schema-utils-js": "^1.16.1",
     "node-polyfill-webpack-plugin": "^2.0.1",
     "process": "^0.11.10"
