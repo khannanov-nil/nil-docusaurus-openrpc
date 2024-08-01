@@ -2853,9 +2853,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@khannanov-nil/nil-open-rpc-docs-react@npm:0.4.8":
-  version: 0.4.8
-  resolution: "@khannanov-nil/nil-open-rpc-docs-react@npm:0.4.8"
+"@khannanov-nil/nil-open-rpc-docs-react@npm:0.4.9":
+  version: 0.4.9
+  resolution: "@khannanov-nil/nil-open-rpc-docs-react@npm:0.4.9"
   dependencies:
     "@json-schema-tools/traverse": ^1.10.1
     "@open-rpc/client-js": ^1.8.1
@@ -2878,7 +2878,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 926a03a66b5be0948247e29b3fdf4718c80cd7ecc8b5f17831218f7ab662ea831b7bf1811ecb8df70de046919b159656c18813294610dcbaed0beb2c2b3d227f
+  checksum: 9cc27d083958be88a659ecc7728dd58d65f9d351c865d73f10c8d911b1c13ab9e591e1a7e71e5b9b09b0db990e558ad45577a43363b2d1109fd908047720bd08
   languageName: node
   linkType: hard
 
@@ -2902,7 +2902,7 @@ __metadata:
     "@docusaurus/theme-common": ^3.0.0
     "@docusaurus/theme-search-algolia": ^3.0.0
     "@docusaurus/types": ^3.0.0
-    "@khannanov-nil/nil-open-rpc-docs-react": 0.4.8
+    "@khannanov-nil/nil-open-rpc-docs-react": 0.4.9
     "@lavamoat/allow-scripts": ^2.0.3
     "@metamask/auto-changelog": ^3.1.0
     "@metamask/eslint-config": ^11.0.1
